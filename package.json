@@ -1,0 +1,27 @@
+{
+  "name": "Basic_Node_Boilerplate",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedamian/basic-node.git"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.4.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "description": "a TRULY basic node boilerplate",
+  "bugs": {
+    "url": "https://github.com/thedamian/basic-node/issues"
+  },
+  "homepage": "https://github.com/thedamian/basic-node#readme",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": ["node","boilerplate"],
+  "author": "Damian Montero",
+  "license": "MIT"
+}
