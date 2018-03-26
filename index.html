@@ -1,60 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>The Basic Node Boilerplate</title>
-    <meta name="description" content="A TRULY Basic node boilerplate site">
-    <meta name="author" content="Damian Montero">
 
-    <!-- Bootstrap -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
-integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Boca JS - Javascript Meetup</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<!--[if lte IE 8]><script src="https://BocaJS.org/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="https://BocaJS.org/assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="https://BocaJS.org/assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="https://BocaJS.org/assets/css/ie9.css" /><![endif]-->
+	<style>
+		#header .inner {
+			background: url("https://BocaJS.org/images/JSBoca5.png");
+			height:150px;
+			max-width:960px;
+			
+		}
+		#header .inner h1 a {
+			vertical-align: top;
+		}
+		#header #nav {
+			padding-right:100px;
+		}
+		
+		#header h1 {
+			top:25%;
+		}
+		#header {
+			 max-width: 980px;
+			 margin: 0 auto 0 auto;
+		}
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" 
-integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		#slogan {
+			position:absolute;
+			top:30%;
+			left:7.5em;
+			color:white;
+		}
 
+	</style>
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-<style>
-	body {
-		padding-top: 50px;
-	}
-	.starter-template {
-		padding: 40px 15px;
-		text-align: center;
-	}
-</style>
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div class="container">
 
-<div class="container">
+						<!-- Header -->
+							<header id="header">
+								<div class="inner">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly 
-barebones HTML document.</p>
-      </div>
+									<!-- Logo -->
+										<h1><a href="index.html" id="logo"><img src="https://BocaJS.org/images/JSBoca3.png" width="100" /></a></h1>
+										<h3 id="slogan">Boca JS<BR>Javascript Community</h3>
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li class="current_page_item"><a href="index.html">Home</a></li>
+												<li><a href="https://meetup.com/bocajs">Events</a></li>
+												<li><a href="https://github.com/bocajs">GitHub</a></li>
+												<li><a href="https://www.meetup.com/BocaJS/members/?op=leaders">Contact Us</a></li>
+											</ul>
+										</nav>
 
-    </div>
+								</div>
+							</header>
 
+						<!-- Banner -->
+							<div id="banner">
+								<h2 id="eventTitle">Event Title</h2>
+								<p id="eventDescription">Event Description</p>
+								<a href="#" id="eventUrl" class="button big icon fa-check-circle">Come Join Us</a>
+								<BR>
+								<h2 id="sponsors">Special thanks to:<BR>
+									<a href="http://www.cendynspaces.com/"><img src="https://secure.meetupstatic.com/photos/sponsor/4/9/6/1/iab120x90_2598785.jpeg" width=200></a>
+                                    <a href="https://www.tk2code.com/"><img src="https://secure.meetupstatic.com/photos/event/8/c/2/a/600_460655882.jpeg" width=200></a>
 
+									<!--
+									<a href="http://www.tallience.com/"><img src="https://secure.meetupstatic.com/photos/sponsor/d/5/c/2/iab120x90_2634722.jpeg" width=200></a>
+									<a href="https://strongloop.com/"><img src="https://secure.meetupstatic.com/photos/sponsor/6/2/3/7/iab120x90_2665143.jpeg" width=200></a>
+                                    -->
+                                    
+									<h2>
+							</div>
 
+					</div>
+				</div>
+			<style>
+				#sponsors a {
+					vertical-align: text-top;
+				}
+			</style>
+			<!-- Main Wrapper -->
+			<script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
-integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+					$(function() {
+							// Get next event
+							$.get( "https://bocajswall.azurewebsites.net/nextEvent", function( data ) {
+									console.log(data);
+									var title = data.title;
+									var date = data.date;
+									var desc = data.description;
+									var location = data.location;
+									var url = data.url;
+									$("#eventTitle").html(title + " on "+ date);
+									$("#eventDescription").html("Location: <BR>"+location);
+									$("#eventUrl").attr("href",url);
+								});
+							// Next event
 
-  </body>
+					});
+			</script>
+
+			<!-- Footer Wrapper -->
+			
+					<footer id="footer" class="container">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; BocaJS Meetup Group. All rights reserved</li><li>Design: <a href="http://monedllc.com">Moned</a></li>
+									</ul>
+								</div>
+					</footer>
+				
+		</div>
+
+		<!-- Scripts -->
+
+			<script src="https://BocaJS.org/assets/js/jquery.min.js"></script>
+			<script src="https://BocaJS.org/assets/js/jquery.dropotron.min.js"></script>
+			<script src="https://BocaJS.org/assets/js/skel.min.js"></script>
+			<script src="https://BocaJS.org/assets/js/skel-viewport.min.js"></script>
+			<script src="https://BocaJS.org/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="https://BocaJS.org/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="https://BocaJS.org/assets/js/main.js"></script>
+
+	</body>
 </html>
+
